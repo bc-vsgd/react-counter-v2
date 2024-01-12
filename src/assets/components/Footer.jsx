@@ -7,19 +7,27 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <footer>
-      <div>
+      <div className="container">
         <div>
           <span>Made with</span>
           <a
             href="https://react.dev/blog/2023/03/16/introducing-react-dev"
             target="_blank"
           >
-            <img src={logo_react} alt="Logo React" />
+            <img
+              className="xs-hidden sm-visible"
+              src={logo_react}
+              alt="Logo React"
+            />
             React
           </a>
           <span>at</span>
           <a href="https://www.lereacteur.io/" target="_blank">
-            <img src={logo_reacteur} alt="Logo Le Reacteur" />
+            <img
+              className="xs-hidden sm-visible"
+              src={logo_reacteur}
+              alt="Logo Le Reacteur"
+            />
             Le Reacteur
           </a>
         </div>
@@ -28,7 +36,7 @@ const Footer = () => {
           <a href="https://github.com/bc-vsgd" target="_blank">
             Benoît Charles{" "}
             <FontAwesomeIcon
-              className="footer-icon"
+              className="footer-icon xs-hidden sm-visible"
               icon="fa-brands fa-github"
             />{" "}
           </a>
@@ -37,7 +45,7 @@ const Footer = () => {
             target="_blank"
           >
             <FontAwesomeIcon
-              className="footer-icon"
+              className="footer-icon xs-hidden sm-visible"
               icon="fa-brands fa-linkedin"
             />
           </a>

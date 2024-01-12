@@ -1,0 +1,82 @@
+@media (min-width: 576px) {
+  /* OVER 576 PX WIDTH SCREENS STYLE RULES */
+
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: 500px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header div {
+    padding-top: 20px;
+  }
+  .header-icon {
+    font-size: 32px;
+  }
+  header span {
+    font-size: 32px;
+  }
+
+  /* COUNTER DIV */
+  /* COUNTER DIV */
+
+  main {
+    padding-top: 25px;
+  }
+  .counter-div {
+    width: 350px;
+    padding: 20px;
+    gap: 25px;
+  }
+  .counter-div > div:first-child div {
+    width: 90px;
+    height: 90px;
+  }
+  .counter-div:not(:last-child) {
+    border-bottom: 1px dotted #5c48d3;
+  }
+  .add-button {
+    font-size: 24px;
+    width: 250px;
+    height: 45px;
+  }
+  .remove-button {
+    font-size: 24px;
+    width: 300px;
+    height: 45px;
+  }
+  .num-display-div span {
+    font-size: 70px;
+  }
+  .op-button-div button {
+    font-size: 70px;
+  }
+  .reset-button {
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  .sm-visible {
+    display: inline;
+  }
+  footer div {
+    padding-top: 20px;
+  }
+  footer a {
+    gap: 5px;
+  }
+  footer img {
+    height: 25px;
+  }
+  .footer-icon {
+    font-size: 25px;
+  }
+}

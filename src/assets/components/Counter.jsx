@@ -20,18 +20,22 @@ const Counter = (props) => {
           )}
         </div>
         {/* Number display */}
-        <div className="num-display-div">{num}</div>
+        <div className="num-display-div">
+          <span>{num}</span>
+        </div>
         {/* "+" button */}
         <div className="op-button-div">
-          {num < 10 && (
-            <button
-              onClick={() => {
-                operation(ind, tab, setTab, "+");
-              }}
-            >
-              +
-            </button>
-          )}
+          <span>
+            {num < 10 && (
+              <button
+                onClick={() => {
+                  operation(ind, tab, setTab, "+");
+                }}
+              >
+                +
+              </button>
+            )}
+          </span>
         </div>
       </div>
       <div>

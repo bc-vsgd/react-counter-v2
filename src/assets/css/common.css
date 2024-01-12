@@ -9,10 +9,16 @@ body {
 button {
   border: none;
 }
+button:hover {
+  cursor: pointer;
+}
 a {
   text-decoration: none;
   color: black;
   font-weight: 600;
+}
+.container {
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -22,6 +28,7 @@ header div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border-bottom: 1px solid #5c48d3;
 }
 .header-icon {
   color: #5c48d3;
@@ -30,27 +37,77 @@ header div {
 /* COUNTER */
 /* COUNTER */
 
-main div:nth-child(2) {
-  display: flex;
-}
-.counter-div {
-  border: 1px solid blue;
+main {
   display: flex;
   flex-direction: column;
 }
-.counter-div > div:first-child {
+main > div:first-child {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+main > div:nth-child(2) {
   display: flex;
 }
+main > div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+.counter-div {
+  display: flex;
+  flex-direction: column;
+}
+.counter-div > div {
+  display: flex;
+}
+.counter-div > div:first-child {
+  justify-content: space-between;
+}
+.counter-div > div:nth-child(2) {
+  justify-content: center;
+}
 .add-button,
-.remove-button,
+.remove-button {
+  color: #5c48d3;
+  background-color: white;
+  border: 2px solid #5c48d3;
+  border-radius: 5px;
+}
+.num-display-div,
+.op-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .reset-button,
 .num-display-div {
   background-color: #5c48d3;
   color: white;
+}
+.reset-button {
+  border-radius: 5px;
+}
+.num-display-div {
   border-radius: 5px;
 }
 .op-button-div button {
   background-color: white;
+}
+
+/* HOVER */
+
+.add-button:hover,
+.remove-button:hover {
+  background-color: #5c48d3;
+  color: white;
+  border-radius: 5px;
+}
+.reset-button:hover {
+  color: #5c48d3;
+  background-color: white;
+  border: 2px solid #5c48d3;
+  border-radius: 5px;
 }
 
 /* FOOTER */
@@ -58,6 +115,7 @@ main div:nth-child(2) {
 
 footer div {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 footer a {

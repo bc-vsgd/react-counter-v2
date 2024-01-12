@@ -1,0 +1,49 @@
+/* OVER 768 PX WIDTH SCREENS STYLE RULES */
+
+@media (min-width: 768px) {
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: auto;
+    margin: 0 100px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header div {
+    padding: 30px 0;
+    gap: 30px;
+  }
+  .header-icon {
+    font-size: 42px;
+  }
+  header span {
+    font-size: 38px;
+  }
+
+  /* COUNTER DIV */
+  /* COUNTER DIV */
+
+  main {
+    padding-top: 40px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer div {
+    padding-top: 40px;
+    font-size: 15px;
+  }
+  footer a {
+    gap: 5px;
+  }
+  footer img {
+    height: 30px;
+  }
+  .footer-icon {
+    font-size: 30px;
+  }
+}

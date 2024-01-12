@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="container">
         <div>
           {tab.length < 3 && (
             <button
@@ -29,7 +29,7 @@ function App() {
                 addCounter(tab, setTab);
               }}
             >
-              Add counter
+              ADD COUNTER
             </button>
           )}
         </div>
@@ -44,7 +44,7 @@ function App() {
               className="remove-button"
               onClick={() => removeCounter(tab, setTab)}
             >
-              Remove last counter
+              REMOVE COUNTER
             </button>
           )}
         </div>

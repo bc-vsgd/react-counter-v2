@@ -1,0 +1,96 @@
+/* OVER 0 PX WIDTH SCREENS STYLE RULES */
+@media (min-width: 0px) {
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: 400px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header div {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  .header-icon {
+    font-size: 28px;
+  }
+  header span {
+    font-size: 28px;
+  }
+
+  /* COUNTER DIV */
+  /* COUNTER DIV */
+
+  main {
+    padding-top: 20px;
+    gap: 15px;
+    /* font-size: 20px; */
+  }
+  main > div:first-child {
+    padding-bottom: 10px;
+    /* sticky position */
+    top: 30px;
+  }
+  main > div:nth-child(2) {
+    flex-direction: column;
+    gap: 15px;
+  }
+  main > div:nth-child(3) {
+    padding-top: 10px;
+    /* sticky position */
+    bottom: 30px;
+  }
+  .counter-div {
+    margin: 0 auto;
+    padding: 15px;
+    width: 250px;
+    gap: 15px;
+  }
+  .counter-div > div:first-child {
+    gap: 5px;
+  }
+  .counter-div > div:first-child div {
+    width: 70px;
+    height: 70px;
+  }
+  .add-button {
+    font-size: 24px;
+    width: 200px;
+    height: 45px;
+  }
+  .remove-button {
+    font-size: 24px;
+    width: 250px;
+    height: 45px;
+  }
+  .num-display-div span {
+    font-size: 50px;
+  }
+  .op-button-div button {
+    font-size: 60px;
+  }
+  .op-button-div:first-child button {
+    padding-bottom: 10px;
+  }
+  .reset-button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer div {
+    font-size: 13px;
+    gap: 5px;
+    padding: 15px 0;
+  }
+  .xs-hidden {
+    display: none;
+  }
+}
